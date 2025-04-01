@@ -4,7 +4,7 @@
 
 Login de usuarios el cual puede conectarse a una BD de MySQL y registrar, actualizar o eliminar los usuarios registrados. 
 
-La conexión a la BD se hace a través del drive JDBC **Connector/J** (incluido en el codigo fuente). Si quiere conectarse con su BD debe de colocar la información de esta en los atributos correspondientes en la clase **ConexionMySQL**. Una vez se establezca la conexión, se creara la tabla **usuarios** en la BD si esta no existe, en el caso de que no se pueda establecer conexión con la BD el programa se podra seguir utilizando pero los usuarios que se registren tan solo permanecerán en la memoria temporal del programa.
+La conexión a la BD se hace a través del drive JDBC **Connector/J** (incluido en el codigo fuente). Si quiere conectarse con su BD debe de colocar la información de esta en los atributos correspondientes dentro de la clase **ConexionMySQL**. Una vez se establezca la conexión, se creara la tabla **usuarios** en la BD si esta no existe, en el caso de que no se pueda establecer conexión con la BD el programa se podra seguir utilizando pero los usuarios que se registren tan solo permanecerán en la memoria temporal del programa.
 
 Se aplicaron los pilares de la programación orientada a objetos:
 
